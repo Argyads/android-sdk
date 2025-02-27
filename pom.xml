@@ -6,7 +6,7 @@
     <groupId>com.github.argyads</groupId>
     <artifactId>android-sdk</artifactId>
     <version>1.0.0</version>
-    <packaging>aar</packaging>
+    <packaging>pom</packaging>
 
     <dependencies>
         <!-- Google Play Services Ads -->
