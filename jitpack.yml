@@ -1,7 +1,18 @@
-jdk:
-  - openjdk17
-before_install:
-  - ./scripts/prepareJitpackEnvironment.sh
-install:
-  - FILE="-Dfile=android-sdk-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.argyads -DartifactId=android-sdk -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
+#!/bin/bash
+
+# Make sure to install all dependencies (e.g., if needed)
+# You could use Gradle to build the AAR first (if not already built)
+./gradlew build
+  
+  # Make sure that all necessary directories exist
+mkdir -p $HOME/.m2/repository
+  
+  # You might want to configure Maven settings here
+  # Example of using the mvn install command to install the AAR
+mvn install:install-file \
+-Dfile=android-sdk-release.aar \
+-DgroupId=com.github.argyads \
+-DartifactId=android-sdk \
+-Dversion=1.0.0 \
+-Dpackaging=aar \
+-DgeneratePom=true

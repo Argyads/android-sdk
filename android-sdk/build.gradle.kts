@@ -10,18 +10,11 @@ android {
 
     defaultConfig {
         minSdk = 24
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-            consumerProguardFiles ("consumer-rules.pro")
         }
     }
 
@@ -39,23 +32,16 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-
-    // Automatically included in the SDK
-    api(libs.play.services.ads)
+    api("com.google.android.gms:play-services-ads:24.0.0")
 }
 
 publishing {
     publications {
-        // Register the release publication for publishing
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
             version = "1.0.0"
 
-            // Include the release component from the library module
             afterEvaluate {
                 from(components["release"])
             }
@@ -64,7 +50,7 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://jitpack.io") // JitPack repository
+            url = uri("https://jitpack.io")
         }
     }
 }
