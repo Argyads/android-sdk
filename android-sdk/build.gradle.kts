@@ -38,7 +38,7 @@ publishing {
     publications {
         // Register the release publication for publishing
         register<MavenPublication>("release") {
-            groupId = "com.argyads"
+            groupId = "com.github.argyads"
             artifactId = "android-sdk"
             version = "1.0.0"
 
