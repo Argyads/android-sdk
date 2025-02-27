@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad_image_description">Ad Image</string>
+    <string name="ad_headline_placeholder">Your Headline Here</string>
+    <string name="ad_body_placeholder">This is a short description of the ad. Tap the button to learn more.</string>
+    <string name="ad_button_placeholder">Learn More</string>
+</resources>
