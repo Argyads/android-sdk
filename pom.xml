@@ -7,6 +7,10 @@
     <groupId>com.github.argyads</groupId>
     <artifactId>android-sdk</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <description>ArgyAds SDK</description>
+
+
     <dependencies>
         <dependency>
             <groupId>com.google.android.gms</groupId>
