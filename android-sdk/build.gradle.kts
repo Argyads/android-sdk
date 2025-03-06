@@ -35,20 +35,10 @@ android {
     }
 }
 
-dependencies {
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-
-    // Automatically included in the SDK
-    api("com.google.android.gms:play-services-ads:24.0.0")
-}
 
 publishing {
     publications {
+        // Register the release publication for publishing
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
@@ -60,10 +50,21 @@ publishing {
             }
         }
     }
-
     repositories {
         maven {
             url = uri("https://jitpack.io") // JitPack repository
         }
     }
+}
+
+dependencies {
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+
+    // Automatically included in the SDK
+    api("com.google.android.gms:play-services-ads:24.0.0")
 }
