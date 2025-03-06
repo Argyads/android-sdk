@@ -40,7 +40,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
-            version = "3.0.4"
+            version = "3.0.5"
 
             // Include the release component from the library module
             afterEvaluate {
@@ -65,5 +65,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // Automatically included in the SDK
-    api("com.google.android.gms:play-services-ads:24.0.0")
+    implementation("com.google.android.gms:play-services-ads:24.0.0")
 }
