@@ -32,7 +32,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0f837be-3146-4a83-b92c-92474566b9c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android-sdk/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/android-sdk/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-sdk/consumer-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android-sdk/consumer-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-sdk/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android-sdk/proguard-rules.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>

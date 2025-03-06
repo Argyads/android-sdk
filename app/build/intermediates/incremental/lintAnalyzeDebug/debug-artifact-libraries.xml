@@ -616,10 +616,10 @@
       proguardRules="proguard.txt"/>
   <library
       name=":@@:android-sdk::debug"
-      jars="C:\Users\Legion 5\.gradle\caches\8.9\transforms\9c4fff9849072a1e0cb80a5deb6fbe81\transformed\out\jars\classes.jar;C:\Users\Legion 5\.gradle\caches\8.9\transforms\9c4fff9849072a1e0cb80a5deb6fbe81\transformed\out\jars\libs\R.jar"
+      jars="C:\Users\Legion 5\.gradle\caches\8.9\transforms\4834117d0d16e8f1f925c2c6cbd45df0\transformed\out\jars\classes.jar;C:\Users\Legion 5\.gradle\caches\8.9\transforms\4834117d0d16e8f1f925c2c6cbd45df0\transformed\out\jars\libs\R.jar"
       resolved="ArgyAds Demo:android-sdk:unspecified"
       partialResultsDir="C:\Adquimo\argyads-sdk-demo\android-sdk\build\intermediates\lint_partial_results\debug\lintAnalyzeDebug\out"
-      folder="C:\Users\Legion 5\.gradle\caches\8.9\transforms\9c4fff9849072a1e0cb80a5deb6fbe81\transformed\out"
+      folder="C:\Users\Legion 5\.gradle\caches\8.9\transforms\4834117d0d16e8f1f925c2c6cbd45df0\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

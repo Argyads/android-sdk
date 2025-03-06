@@ -1,33 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>com.github.argyads</groupId>
   <artifactId>android-sdk</artifactId>
-  <version>3.0.5</version>
+  <version>3.0.6</version>
   <packaging>pom</packaging>
   <description>ArgyAds SDK</description>
 
-  <!-- Add Google repository and JitPack repository -->
-  <repositories>
-    <repository>
-      <id>google</id>
-      <url>https://maven.google.com</url>
-    </repository>
-    <repository>
-      <id>jitpack</id>
-      <url>https://jitpack.io</url>
-    </repository>
-  </repositories>
-
-  <!-- Add the dependencies -->
   <dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.cardview</groupId>
+      <artifactId>cardview</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-v4</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.preference</groupId>
+      <artifactId>preference</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-runtime</artifactId>
+      <version>2.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-runtime-ktx</artifactId>
+      <version>2.8.1</version>
+    </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-ads</artifactId>
       <version>24.0.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-appset</artifactId>
+      <version>16.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-location</artifactId>
+      <version>17.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-maps</artifactId>
+      <version>17.0.0</version>
+    </dependency>
   </dependencies>
+
 </project>

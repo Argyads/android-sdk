@@ -395,10 +395,10 @@
       proguardRules="proguard.txt"/>
   <library
       name=":@@:android-sdk::release"
-      jars="C:\Users\Legion 5\.gradle\caches\8.9\transforms\d19e96eb918c2af4d7f4d2c4fd777dbb\transformed\out\jars\classes.jar;C:\Users\Legion 5\.gradle\caches\8.9\transforms\d19e96eb918c2af4d7f4d2c4fd777dbb\transformed\out\jars\libs\R.jar"
+      jars="C:\Users\Legion 5\.gradle\caches\8.9\transforms\b7b8564f6b8cb3aa47b93ede28d2b90d\transformed\out\jars\classes.jar;C:\Users\Legion 5\.gradle\caches\8.9\transforms\b7b8564f6b8cb3aa47b93ede28d2b90d\transformed\out\jars\libs\R.jar"
       resolved="ArgyAds Demo:android-sdk:unspecified"
       partialResultsDir="C:\Adquimo\argyads-sdk-demo\android-sdk\build\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out"
-      folder="C:\Users\Legion 5\.gradle\caches\8.9\transforms\d19e96eb918c2af4d7f4d2c4fd777dbb\transformed\out"
+      folder="C:\Users\Legion 5\.gradle\caches\8.9\transforms\b7b8564f6b8cb3aa47b93ede28d2b90d\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
