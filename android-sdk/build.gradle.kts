@@ -40,7 +40,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
-            version = "1.0.0"
+            version = "3.0.0"
 
             // Include the release component from the library module
             afterEvaluate {
