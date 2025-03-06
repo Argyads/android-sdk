@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.0" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.9.0"
+                family="Update versions"
+                oldString="8.7.0"
+                replacement="8.9.0"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.7.3"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.7.0"
+                replacement="8.7.3"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.library than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.9.0"
+                family="Update versions"
+                oldString="8.7.0"
+                replacement="8.9.0"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.7.3"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.7.0"
+                replacement="8.7.3"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.9.3"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="9"
+            column="19"
+            startOffset="172"
+            endLine="9"
+            endColumn="26"
+            endOffset="179"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.02.00">
+        <fix-replace
+            description="Change to 2025.02.00"
+            family="Update versions"
+            oldString="2024.04.01"
+            replacement="2025.02.00"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="10"
+            column="14"
+            startOffset="193"
+            endLine="10"
+            endColumn="26"
+            endOffset="205"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.10.0 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.10.0"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="13"
+            column="12"
+            startOffset="257"
+            endLine="13"
+            endColumn="20"
+            endOffset="265"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.2.0 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.2.0"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="14"
+            column="20"
+            startOffset="285"
+            endLine="14"
+            endColumn="27"
+            endOffset="292"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-ads than 23.6.0 is available: 24.0.0">
+        <fix-replace
+            description="Change to 24.0.0"
+            family="Update versions"
+            oldString="23.6.0"
+            replacement="24.0.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="15"
+            column="19"
+            startOffset="311"
+            endLine="15"
+            endColumn="27"
+            endOffset="319"/>
+    </incident>
+
+    <incident
+        id="SimilarGradleDependency"
+        severity="informational"
+        message="There are multiple dependencies com.google.android.gms:play-services-ads but with different version">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="37"
+            column="22"
+            startOffset="2108"
+            endLine="37"
+            endColumn="109"
+            endOffset="2195"/>
+    </incident>
+
+    <incident
+        id="SimilarGradleDependency"
+        severity="informational"
+        message="There are multiple dependencies com.google.android.gms:play-services-ads but with different version">
+        <location
+            file="../gradle/libs.versions.toml"
+            line="38"
+            column="28"
+            startOffset="2223"
+            endLine="38"
+            endColumn="122"
+            endOffset="2317"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.play.services.ads.v2400`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `play-services-ads-v2400`"
+            robot="true"
+            independent="true"
+            replacement="libs.play.services.ads.v2400"
+            priority="0">
+            <range
+                file="${:android-sdk*projectDir}/build.gradle.kts"
+                startOffset="1807"
+                endOffset="1856"/>
+        </fix-replace>
+        <location
+            file="${:android-sdk*projectDir}/build.gradle.kts"
+            line="76"
+            column="20"
+            startOffset="1807"
+            endLine="76"
+            endColumn="69"
+            endOffset="1856"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:android-sdk*debug*MAIN*sourceProvider*0*resDir*0}/layout/gnt_medium_template_view.xml"
+            line="52"
+            column="10"
+            startOffset="2228"
+            endLine="52"
+            endColumn="19"
+            endOffset="2237"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:android-sdk*debug*MAIN*sourceProvider*0*resDir*0}/layout/gnt_small_template_view.xml"
+            line="33"
+            column="10"
+            startOffset="1491"
+            endLine="33"
+            endColumn="19"
+            endOffset="1500"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:android-sdk*debug*MAIN*sourceProvider*0*resDir*0}/layout/native_ad_layout.xml"
+            line="34"
+            column="6"
+            startOffset="1169"
+            endLine="34"
+            endColumn="15"
+            endOffset="1178"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ad&quot;, should use `@string` resource">
+        <location
+            file="${:android-sdk*debug*MAIN*sourceProvider*0*resDir*0}/layout/gnt_medium_template_view.xml"
+            line="134"
+            column="17"
+            startOffset="6394"
+            endLine="134"
+            endColumn="34"
+            endOffset="6411"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ad&quot;, should use `@string` resource">
+        <location
+            file="${:android-sdk*debug*MAIN*sourceProvider*0*resDir*0}/layout/gnt_small_template_view.xml"
+            line="113"
+            column="17"
+            startOffset="5571"
+            endLine="113"
+            endColumn="34"
+            endOffset="5588"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Install Now&quot;, should use `@string` resource">
+        <location
+            file="${:android-sdk*debug*MAIN*sourceProvider*0*resDir*0}/layout/native_ad_layout.xml"
+            line="30"
+            column="9"
+            startOffset="1070"
+            endLine="30"
+            endColumn="35"
+            endOffset="1096"/>
+    </incident>
+
+</incidents>
