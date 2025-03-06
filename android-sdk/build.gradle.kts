@@ -47,20 +47,6 @@ publishing {
                 from(components["release"])
             }
 
-            /* pom {
-                withXml {
-                    asNode().apply {
-                        // Add dependencies manually using XML DSL
-                        appendNode("dependencies").apply {
-                            appendNode("dependency").apply {
-                                appendNode("groupId", "com.google.android.gms")
-                                appendNode("artifactId", "play-services-ads")
-                                appendNode("version", "24.0.0")
-                            }
-                        }
-                    }
-                }
-            } */
         }
     }
 
@@ -73,6 +59,8 @@ publishing {
             url = uri("https://maven.google.com") // Google repository
         }
 
+        google()
+        mavenCentral()
     }
 }
 
