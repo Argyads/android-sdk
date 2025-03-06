@@ -103,7 +103,7 @@ play-services-ads-v2400 = { module = "com.google.android.gms:play-services-ads",
    approach. However, you may simply not be aware that this situation happens,
    and that is what this lint check helps find.
 
-C:\Adquimo\argyads-sdk-demo\android-sdk\build.gradle.kts:68: Warning: Use the existing version catalog reference (libs.play.services.ads.v2400) instead [UseTomlInstead]
+C:\Adquimo\argyads-sdk-demo\android-sdk\build.gradle.kts:83: Warning: Use the existing version catalog reference (libs.play.services.ads.v2400) instead [UseTomlInstead]
     implementation("com.google.android.gms:play-services-ads:24.0.0")
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

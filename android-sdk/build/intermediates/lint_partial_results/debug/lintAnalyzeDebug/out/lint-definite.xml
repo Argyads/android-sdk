@@ -201,17 +201,17 @@
             priority="0">
             <range
                 file="${:android-sdk*projectDir}/build.gradle.kts"
-                startOffset="1667"
-                endOffset="1716"/>
+                startOffset="2268"
+                endOffset="2317"/>
         </fix-replace>
         <location
             file="${:android-sdk*projectDir}/build.gradle.kts"
-            line="68"
+            line="83"
             column="20"
-            startOffset="1667"
-            endLine="68"
+            startOffset="2268"
+            endLine="83"
             endColumn="69"
-            endOffset="1716"/>
+            endOffset="2317"/>
     </incident>
 
     <incident

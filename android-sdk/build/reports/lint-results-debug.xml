@@ -445,7 +445,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="C:\Adquimo\argyads-sdk-demo\android-sdk\build.gradle.kts"
-            line="68"
+            line="83"
             column="20"/>
     </issue>
 

@@ -40,11 +40,26 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
-            version = "3.0.6"
+            version = "3.0.7"
 
             // Include the release component from the library module
             afterEvaluate {
                 from(components["release"])
+            }
+
+            pom {
+                withXml {
+                    asNode().apply {
+                        // Add dependencies manually using XML DSL
+                        appendNode("dependencies").apply {
+                            appendNode("dependency").apply {
+                                appendNode("groupId", "com.google.android.gms")
+                                appendNode("artifactId", "play-services-ads")
+                                appendNode("version", "24.0.0")
+                            }
+                        }
+                    }
+                }
             }
         }
     }
