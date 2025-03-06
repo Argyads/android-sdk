@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.ir.backend.js.compile
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
@@ -52,7 +54,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
-            version = "1.1.1"
+            version = "1.0.0"
 
             // Include the release component from the library module
             afterEvaluate {
