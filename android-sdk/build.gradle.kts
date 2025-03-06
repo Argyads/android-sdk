@@ -40,14 +40,14 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
-            version = "3.0.7"
+            version = "3.1.0"
 
             // Include the release component from the library module
             afterEvaluate {
                 from(components["release"])
             }
 
-            pom {
+            /* pom {
                 withXml {
                     asNode().apply {
                         // Add dependencies manually using XML DSL
@@ -60,7 +60,7 @@ publishing {
                         }
                     }
                 }
-            }
+            } */
         }
     }
 
@@ -68,6 +68,11 @@ publishing {
         maven {
             url = uri("https://jitpack.io") // JitPack repository
         }
+
+        maven {
+            url = uri("https://maven.google.com") // Google repository
+        }
+
     }
 }
 
