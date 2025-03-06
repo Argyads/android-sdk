@@ -4,7 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.argyads</groupId>
   <artifactId>android-sdk</artifactId>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   <packaging>pom</packaging>
   <description>ArgyAds SDK</description>
+
+  <dependencies>
+    <!-- Add Play Services Ads dependency -->
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>24.0.0</version>
+    </dependency>
+  </dependencies>
 </project>
