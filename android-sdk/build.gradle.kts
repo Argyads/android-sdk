@@ -35,10 +35,8 @@ android {
     }
 }
 
-
 publishing {
     publications {
-        // Register the release publication for publishing
         register<MavenPublication>("release") {
             groupId = "com.github.argyads"
             artifactId = "android-sdk"
@@ -50,6 +48,7 @@ publishing {
             }
         }
     }
+
     repositories {
         maven {
             url = uri("https://jitpack.io") // JitPack repository
