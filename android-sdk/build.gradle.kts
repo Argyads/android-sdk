@@ -52,20 +52,12 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.argyads"
-            artifactId = "android-sdk"
-            version = "1.0.0"
-
-            // Include the release component from the library module
             afterEvaluate {
                 from(components["release"])
+                groupId = "com.github.argyads"
+                artifactId = "android-sdk"
+                version = "1.0.0"
             }
-        }
-    }
-
-    repositories {
-        maven {
-            url = uri("https://jitpack.io") // JitPack repository
         }
     }
 }
