@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.argyads.android-sdk-release-3:/xml/image_share_filepaths.xml",
+        "source": "com.argyads.android-sdk-browser-1.8.0-31:/xml/image_share_filepaths.xml"
+    }
+]

@@ -1,0 +1,216 @@
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+agp = "8.7.0"
+      ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+agp = "8.7.0"
+      ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+agp = "8.7.0"
+      ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:2: Warning: A newer version of com.android.library than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+agp = "8.7.0"
+      ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:2: Warning: A newer version of com.android.library than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+agp = "8.7.0"
+      ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:2: Warning: A newer version of com.android.library than 8.7.0 is available: 8.9.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.9.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+agp = "8.7.0"
+      ~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.10.1 [GradleDependency]
+activityCompose = "1.9.3"
+                  ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.10.1 [GradleDependency]
+activityCompose = "1.9.3"
+                  ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.10.1 [GradleDependency]
+activityCompose = "1.9.3"
+                  ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.02.00 [GradleDependency]
+composeBom = "2024.04.01"
+             ~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.02.00 [GradleDependency]
+composeBom = "2024.04.01"
+             ~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.02.00 [GradleDependency]
+composeBom = "2024.04.01"
+             ~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:13: Warning: A newer version of androidx.activity:activity than 1.10.0 is available: 1.10.1 [GradleDependency]
+activity = "1.10.0"
+           ~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:13: Warning: A newer version of androidx.activity:activity than 1.10.0 is available: 1.10.1 [GradleDependency]
+activity = "1.10.0"
+           ~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:13: Warning: A newer version of androidx.activity:activity than 1.10.0 is available: 1.10.1 [GradleDependency]
+activity = "1.10.0"
+           ~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:14: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.2.0 is available: 2.2.1 [GradleDependency]
+constraintlayout = "2.2.0"
+                   ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:14: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.2.0 is available: 2.2.1 [GradleDependency]
+constraintlayout = "2.2.0"
+                   ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:14: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.2.0 is available: 2.2.1 [GradleDependency]
+constraintlayout = "2.2.0"
+                   ~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:15: Warning: A newer version of com.google.android.gms:play-services-ads than 23.6.0 is available: 24.0.0 [GradleDependency]
+playServicesAds = "23.6.0"
+                  ~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:15: Warning: A newer version of com.google.android.gms:play-services-ads than 23.6.0 is available: 24.0.0 [GradleDependency]
+playServicesAds = "23.6.0"
+                  ~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:15: Warning: A newer version of com.google.android.gms:play-services-ads than 23.6.0 is available: 24.0.0 [GradleDependency]
+playServicesAds = "23.6.0"
+                  ~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:37: Information: There are multiple dependencies com.google.android.gms:play-services-ads but with different version [SimilarGradleDependency]
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:37: Information: There are multiple dependencies com.google.android.gms:play-services-ads but with different version [SimilarGradleDependency]
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:37: Information: There are multiple dependencies com.google.android.gms:play-services-ads but with different version [SimilarGradleDependency]
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:38: Information: There are multiple dependencies com.google.android.gms:play-services-ads but with different version [SimilarGradleDependency]
+play-services-ads-v2400 = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAdsVersion" }
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:38: Information: There are multiple dependencies com.google.android.gms:play-services-ads but with different version [SimilarGradleDependency]
+play-services-ads-v2400 = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAdsVersion" }
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\gradle\libs.versions.toml:38: Information: There are multiple dependencies com.google.android.gms:play-services-ads but with different version [SimilarGradleDependency]
+play-services-ads-v2400 = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAdsVersion" }
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SimilarGradleDependency":
+   This detector looks for usages of libraries when name and group are the
+   same but versions are different. Using multiple versions in big project is
+   fine, and there are cases where you deliberately want to stick with such
+   approach. However, you may simply not be aware that this situation happens,
+   and that is what this lint check helps find.
+
+C:\Adquimo\argyads-sdk-demo\android-sdk\build.gradle.kts:68: Warning: Use the existing version catalog reference (libs.play.services.ads.v2400) instead [UseTomlInstead]
+    implementation("com.google.android.gms:play-services-ads:24.0.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:52: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_small_template_view.xml:33: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\native_ad_layout.xml:34: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:134: Warning: Hardcoded string "Ad", should use @string resource [HardcodedText]
+                android:text="Ad"
+                ~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_small_template_view.xml:113: Warning: Hardcoded string "Ad", should use @string resource [HardcodedText]
+                android:text="Ad"
+                ~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\native_ad_layout.xml:30: Warning: Hardcoded string "Install Now", should use @string resource [HardcodedText]
+        android:text="Install Now"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:196: Warning: When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry [RtlSymmetry]
+        android:paddingLeft="@dimen/gnt_default_margin"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:202: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+        android:paddingStart="@dimen/gnt_default_margin"
+        ~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlSymmetry":
+   If you specify padding or margin on the left side of a layout, you should
+   probably also specify padding on the right side (and vice versa) for
+   right-to-left layout symmetry.
+
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:67: Warning: Redundant attribute layout_marginLeft; already defining layout_marginStart with targetSdkVersion 24 [RtlHardcoded]
+            android:layout_marginLeft="@dimen/gnt_default_margin"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:68: Warning: Redundant attribute layout_marginRight; already defining layout_marginEnd with targetSdkVersion 24 [RtlHardcoded]
+            android:layout_marginRight="@dimen/gnt_no_margin" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:75: Warning: Redundant attribute layout_marginLeft; already defining layout_marginStart with targetSdkVersion 24 [RtlHardcoded]
+            android:layout_marginLeft="@dimen/gnt_default_margin"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:87: Warning: Use "start" instead of "left" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+              android:gravity="left"
+                               ~~~~
+C:\Adquimo\argyads-sdk-demo\android-sdk\src\main\res\layout\gnt_medium_template_view.xml:196: Warning: Redundant attribute paddingLeft; already defining paddingStart with targetSdkVersion 24 [RtlHardcoded]
+        android:paddingLeft="@dimen/gnt_default_margin"
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 35 warnings

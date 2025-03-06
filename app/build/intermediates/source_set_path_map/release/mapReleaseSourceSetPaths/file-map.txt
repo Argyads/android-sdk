@@ -1,0 +1,69 @@
+com.argyads.demo.app-release-0 C:\Adquimo\argyads-sdk-demo\android-sdk\build\intermediates\packaged_res\release\packageReleaseResources
+com.argyads.demo.app-pngs-1 C:\Adquimo\argyads-sdk-demo\app\build\generated\res\pngs\release
+com.argyads.demo.app-resValues-2 C:\Adquimo\argyads-sdk-demo\app\build\generated\res\resValues\release
+com.argyads.demo.app-packageReleaseResources-3 C:\Adquimo\argyads-sdk-demo\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.argyads.demo.app-packageReleaseResources-4 C:\Adquimo\argyads-sdk-demo\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.argyads.demo.app-release-5 C:\Adquimo\argyads-sdk-demo\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.argyads.demo.app-main-6 C:\Adquimo\argyads-sdk-demo\app\src\main\res
+com.argyads.demo.app-release-7 C:\Adquimo\argyads-sdk-demo\app\src\release\res
+com.argyads.demo.app-ui-util-release-8 C:\Users\Legion 5\.gradle\caches\8.9\transforms\015f4a25b790995a82ade83edac044dc\transformed\ui-util-release\res
+com.argyads.demo.app-lifecycle-viewmodel-ktx-2.8.7-9 C:\Users\Legion 5\.gradle\caches\8.9\transforms\075c8f554681aaee0a3824ca84a3a53b\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.argyads.demo.app-viewpager2-1.0.0-10 C:\Users\Legion 5\.gradle\caches\8.9\transforms\07e935b34f9d88c29054122bc4de865c\transformed\viewpager2-1.0.0\res
+com.argyads.demo.app-lifecycle-livedata-core-ktx-2.8.7-11 C:\Users\Legion 5\.gradle\caches\8.9\transforms\0980fe3fbec26dfca87abeb73d00a18e\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.argyads.demo.app-emoji2-1.3.0-12 C:\Users\Legion 5\.gradle\caches\8.9\transforms\0ccf18cfd355fbdf6d7603a616a45399\transformed\emoji2-1.3.0\res
+com.argyads.demo.app-lifecycle-livedata-2.8.7-13 C:\Users\Legion 5\.gradle\caches\8.9\transforms\1134a0aa87a86d3a354887d1aef502cf\transformed\lifecycle-livedata-2.8.7\res
+com.argyads.demo.app-lifecycle-livedata-core-2.8.7-14 C:\Users\Legion 5\.gradle\caches\8.9\transforms\15e6a18036d16e77286b67d3d04aeedd\transformed\lifecycle-livedata-core-2.8.7\res
+com.argyads.demo.app-ads-adservices-1.0.0-beta05-15 C:\Users\Legion 5\.gradle\caches\8.9\transforms\1f6923643dadb7ffef0c9a699bbfe32b\transformed\ads-adservices-1.0.0-beta05\res
+com.argyads.demo.app-activity-1.10.0-16 C:\Users\Legion 5\.gradle\caches\8.9\transforms\201d1f664ff376374ff28f75bd529222\transformed\activity-1.10.0\res
+com.argyads.demo.app-activity-compose-1.10.0-17 C:\Users\Legion 5\.gradle\caches\8.9\transforms\20a528b5e63acd61e93eaf04c31dfcd8\transformed\activity-compose-1.10.0\res
+com.argyads.demo.app-ui-text-release-18 C:\Users\Legion 5\.gradle\caches\8.9\transforms\24608c397af483af52f0fdf2f3e61e5c\transformed\ui-text-release\res
+com.argyads.demo.app-savedstate-1.2.1-19 C:\Users\Legion 5\.gradle\caches\8.9\transforms\27906fa278bc71de82ecc98b8388057f\transformed\savedstate-1.2.1\res
+com.argyads.demo.app-fragment-1.5.4-20 C:\Users\Legion 5\.gradle\caches\8.9\transforms\2860a33956181345381e36f5581a29a6\transformed\fragment-1.5.4\res
+com.argyads.demo.app-play-services-base-18.0.0-21 C:\Users\Legion 5\.gradle\caches\8.9\transforms\3782246ecc27b9b044bda868737dbe1b\transformed\play-services-base-18.0.0\res
+com.argyads.demo.app-ui-release-22 C:\Users\Legion 5\.gradle\caches\8.9\transforms\39111ba7d36a072206c0aa9bea9eca71\transformed\ui-release\res
+com.argyads.demo.app-core-runtime-2.2.0-23 C:\Users\Legion 5\.gradle\caches\8.9\transforms\3bc2921dee148c2e431912296105acee\transformed\core-runtime-2.2.0\res
+com.argyads.demo.app-ads-adservices-java-1.0.0-beta05-24 C:\Users\Legion 5\.gradle\caches\8.9\transforms\3de85e969c6fd48b6caedad5c41af0c0\transformed\ads-adservices-java-1.0.0-beta05\res
+com.argyads.demo.app-emoji2-views-helper-1.3.0-25 C:\Users\Legion 5\.gradle\caches\8.9\transforms\41ec8a2f2bef43d0c787d0b42b79705b\transformed\emoji2-views-helper-1.3.0\res
+com.argyads.demo.app-webkit-1.11.0-alpha02-26 C:\Users\Legion 5\.gradle\caches\8.9\transforms\442a0fd2ffc296f3cd6a682664774112\transformed\webkit-1.11.0-alpha02\res
+com.argyads.demo.app-animation-release-27 C:\Users\Legion 5\.gradle\caches\8.9\transforms\4c7ece5ed872adb2723bfdaf79a8b3a5\transformed\animation-release\res
+com.argyads.demo.app-ui-unit-release-28 C:\Users\Legion 5\.gradle\caches\8.9\transforms\51a26c20afdbda1b81226d606e638a7f\transformed\ui-unit-release\res
+com.argyads.demo.app-coordinatorlayout-1.1.0-29 C:\Users\Legion 5\.gradle\caches\8.9\transforms\548db74cd55a2d2c63910f02ed6fb267\transformed\coordinatorlayout-1.1.0\res
+com.argyads.demo.app-annotation-experimental-1.4.1-30 C:\Users\Legion 5\.gradle\caches\8.9\transforms\54b7fb27bb46d2be48e1142e399e6778\transformed\annotation-experimental-1.4.1\res
+com.argyads.demo.app-work-runtime-2.7.0-31 C:\Users\Legion 5\.gradle\caches\8.9\transforms\559e2f958cf241807dd77383c0ed1f32\transformed\work-runtime-2.7.0\res
+com.argyads.demo.app-ui-geometry-release-32 C:\Users\Legion 5\.gradle\caches\8.9\transforms\6228483517d528cae4528076633aebb8\transformed\ui-geometry-release\res
+com.argyads.demo.app-material3-release-33 C:\Users\Legion 5\.gradle\caches\8.9\transforms\6b0de8b951c44de8037355fa9de9e3c7\transformed\material3-release\res
+com.argyads.demo.app-recyclerview-1.1.0-34 C:\Users\Legion 5\.gradle\caches\8.9\transforms\6c641515de9a43449e4167e8dda9a73f\transformed\recyclerview-1.1.0\res
+com.argyads.demo.app-lifecycle-process-2.8.7-35 C:\Users\Legion 5\.gradle\caches\8.9\transforms\70054e41fb35a6905a81d78010ad660f\transformed\lifecycle-process-2.8.7\res
+com.argyads.demo.app-play-services-basement-18.4.0-36 C:\Users\Legion 5\.gradle\caches\8.9\transforms\73cc21c3ecede9ae382aad7eeb816f9d\transformed\play-services-basement-18.4.0\res
+com.argyads.demo.app-material-ripple-release-37 C:\Users\Legion 5\.gradle\caches\8.9\transforms\78125001cfd8f0908f74f196dbcd4b2a\transformed\material-ripple-release\res
+com.argyads.demo.app-play-services-ads-24.0.0-38 C:\Users\Legion 5\.gradle\caches\8.9\transforms\79cb202ec53250ba472c37cbd9792880\transformed\play-services-ads-24.0.0\res
+com.argyads.demo.app-ui-graphics-release-39 C:\Users\Legion 5\.gradle\caches\8.9\transforms\7c66c443dcbe15c62cbbd4713863aa71\transformed\ui-graphics-release\res
+com.argyads.demo.app-material-1.12.0-40 C:\Users\Legion 5\.gradle\caches\8.9\transforms\7d4259b7abbf5625355a140206288926\transformed\material-1.12.0\res
+com.argyads.demo.app-animation-core-release-41 C:\Users\Legion 5\.gradle\caches\8.9\transforms\7d7ab2a866799a13c2fd0b9ced9666e4\transformed\animation-core-release\res
+com.argyads.demo.app-ui-tooling-preview-release-42 C:\Users\Legion 5\.gradle\caches\8.9\transforms\7dadb0571045b2b4bf6ff0606310f322\transformed\ui-tooling-preview-release\res
+com.argyads.demo.app-material-icons-core-release-43 C:\Users\Legion 5\.gradle\caches\8.9\transforms\88b4e625796cfa86154e2f16b9144f70\transformed\material-icons-core-release\res
+com.argyads.demo.app-core-ktx-1.15.0-44 C:\Users\Legion 5\.gradle\caches\8.9\transforms\8b8b2a64006f9e4437c8af7839b67f06\transformed\core-ktx-1.15.0\res
+com.argyads.demo.app-lifecycle-viewmodel-savedstate-2.8.7-45 C:\Users\Legion 5\.gradle\caches\8.9\transforms\8c8e8af5c0c872afcd82b01e3a5625ee\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.argyads.demo.app-tracing-1.2.0-46 C:\Users\Legion 5\.gradle\caches\8.9\transforms\933534bbb76461a57648a6fff5961e99\transformed\tracing-1.2.0\res
+com.argyads.demo.app-browser-1.8.0-47 C:\Users\Legion 5\.gradle\caches\8.9\transforms\99426cee9d5dc0f51a72752a652a6ae3\transformed\browser-1.8.0\res
+com.argyads.demo.app-customview-poolingcontainer-1.0.0-48 C:\Users\Legion 5\.gradle\caches\8.9\transforms\9c92eb9f56d089bf14e77010b1ea2b4b\transformed\customview-poolingcontainer-1.0.0\res
+com.argyads.demo.app-core-1.15.0-49 C:\Users\Legion 5\.gradle\caches\8.9\transforms\a1c1816b63ae4b7ab22f9da977481234\transformed\core-1.15.0\res
+com.argyads.demo.app-drawerlayout-1.1.1-50 C:\Users\Legion 5\.gradle\caches\8.9\transforms\a2869e17c60147f2cebf67fe14a09432\transformed\drawerlayout-1.1.1\res
+com.argyads.demo.app-lifecycle-runtime-ktx-release-51 C:\Users\Legion 5\.gradle\caches\8.9\transforms\a5741f158850334f4f08128b96cfbe8a\transformed\lifecycle-runtime-ktx-release\res
+com.argyads.demo.app-foundation-release-52 C:\Users\Legion 5\.gradle\caches\8.9\transforms\a8fa7a5c7fa463e40839711ab5e9a19a\transformed\foundation-release\res
+com.argyads.demo.app-profileinstaller-1.4.0-53 C:\Users\Legion 5\.gradle\caches\8.9\transforms\bfbb3c819cee9441daa992e0137d2602\transformed\profileinstaller-1.4.0\res
+com.argyads.demo.app-appcompat-1.7.0-54 C:\Users\Legion 5\.gradle\caches\8.9\transforms\c3a2e3dd2b98eaf590866d4c3ca7d99e\transformed\appcompat-1.7.0\res
+com.argyads.demo.app-lifecycle-viewmodel-release-55 C:\Users\Legion 5\.gradle\caches\8.9\transforms\c6da2be7bd1aafff892def1b9f2a8734\transformed\lifecycle-viewmodel-release\res
+com.argyads.demo.app-savedstate-ktx-1.2.1-56 C:\Users\Legion 5\.gradle\caches\8.9\transforms\c856921eb30c55d25e2cafaedc8e4139\transformed\savedstate-ktx-1.2.1\res
+com.argyads.demo.app-play-services-ads-lite-24.0.0-57 C:\Users\Legion 5\.gradle\caches\8.9\transforms\cbfbfa8a1e2916a4ed7149f144b644e1\transformed\play-services-ads-lite-24.0.0\res
+com.argyads.demo.app-cardview-1.0.0-58 C:\Users\Legion 5\.gradle\caches\8.9\transforms\cfe8d3027797415ee901e3acf2eed312\transformed\cardview-1.0.0\res
+com.argyads.demo.app-activity-ktx-1.10.0-59 C:\Users\Legion 5\.gradle\caches\8.9\transforms\d6d499ebc3dc1b0b4bbb4a9bd064556f\transformed\activity-ktx-1.10.0\res
+com.argyads.demo.app-lifecycle-service-2.8.7-60 C:\Users\Legion 5\.gradle\caches\8.9\transforms\e8255bff51b542a87cd238024aba3ca2\transformed\lifecycle-service-2.8.7\res
+com.argyads.demo.app-runtime-release-61 C:\Users\Legion 5\.gradle\caches\8.9\transforms\e88ff4477dcde8fb1a181d4d4698bc58\transformed\runtime-release\res
+com.argyads.demo.app-appcompat-resources-1.7.0-62 C:\Users\Legion 5\.gradle\caches\8.9\transforms\ed74cb6181f2748a0ec4b9d04908f803\transformed\appcompat-resources-1.7.0\res
+com.argyads.demo.app-lifecycle-runtime-release-63 C:\Users\Legion 5\.gradle\caches\8.9\transforms\f46f0f510627466cd1454223acb184e2\transformed\lifecycle-runtime-release\res
+com.argyads.demo.app-runtime-saveable-release-64 C:\Users\Legion 5\.gradle\caches\8.9\transforms\f501922281280775782f8e49d5ab798e\transformed\runtime-saveable-release\res
+com.argyads.demo.app-constraintlayout-2.2.0-65 C:\Users\Legion 5\.gradle\caches\8.9\transforms\f8f627e01336b0e1dbb6eebdc82e0833\transformed\constraintlayout-2.2.0\res
+com.argyads.demo.app-transition-1.5.0-66 C:\Users\Legion 5\.gradle\caches\8.9\transforms\fb90a55996bcee783ec6386ff52485d4\transformed\transition-1.5.0\res
+com.argyads.demo.app-startup-runtime-1.1.1-67 C:\Users\Legion 5\.gradle\caches\8.9\transforms\fc29b7ee924c85d07b680cb70eaa57e3\transformed\startup-runtime-1.1.1\res
+com.argyads.demo.app-foundation-layout-release-68 C:\Users\Legion 5\.gradle\caches\8.9\transforms\fdb72e1fa37c013db91219a80b7bca3a\transformed\foundation-layout-release\res
