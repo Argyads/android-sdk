@@ -6,8 +6,8 @@
 
   <groupId>com.github.argyads</groupId>
   <artifactId>android-sdk</artifactId>
-  <version>3.0.3</version>
-  <packaging>aar</packaging>
+  <version>3.0.4</version>
+  <packaging>pom</packaging>
   <description>ArgyAds SDK</description>
 
   <!-- Add Google repository and JitPack repository -->
