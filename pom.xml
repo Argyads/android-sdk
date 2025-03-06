@@ -9,26 +9,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.argyads</groupId>
   <artifactId>android-sdk</artifactId>
-  <version>3.1.1</version>
-  <packaging>aar</packaging>
-
-  <!-- Add the Android Maven Plugin to handle AAR packaging -->
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>com.jayway.maven.plugins</groupId>
-        <artifactId>android-maven-plugin</artifactId>
-        <version>4.5.0</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>install</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+  <version>3.1.2</version>
+  <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
